@@ -7,6 +7,8 @@ In the lights of the COVID-19 Pandemic, Hype Industries has released a free Beta
 
 ![Prism Demo](assets/demo.png)
 
+<br>
+
 ## System Requirements
 We highly recommend running this on a Linux Distro. Our system is running on Deepin 15.11 with 16GB of ram and an Intel I5-2500 @ 3.30GHx4. We would highly recommend running Darkflow with a Nvidia GPU.
 - Darkflow
@@ -18,6 +20,8 @@ We highly recommend running this on a Linux Distro. Our system is running on Dee
 - Pillow Image (PIP)
 - tkinter (PIP)
 - pytesseract (PIP)
+
+<br>
 
 ## Setup
 Setting up the Mask detection is really easy. Just create a file called `hardware.json` in the root directory. The `hardware` property is an array of objects. Each Object must contain a unique name, address, and x/y position. For these attributes to be updated on the system you must restart Prism.
@@ -42,6 +46,13 @@ hardware.json
     }]
 }
 ```
+
+<br>
+
+## Start
+To start the program, just start the `index.py` file with either `py index.py` or `python index.py`. If your running a linux system you can use the start file.
+
+<br>
 
 ## License
 NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
