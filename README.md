@@ -1,4 +1,5 @@
 <img src="https://hype-industries.com/assets/branding/black/png/hype-logo-black-75.png" width="120">
+
 # Prism Mask Detection Community Edition COVer-19
 This is a free community edition of Prism Security Suite Mask Detection. This software is able to detect people who are not wearing masks, and contact admins of the building.
 
